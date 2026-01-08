@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.work-sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.header-container{
+    background-image: url(../images/banner/banner1.png);
+    width: 100%;
+    height: 808px;
+    background-position: center;
+    background-size: cover;
+}
+.header-section{
+    text-align: right;
+    padding: 216px 230px 166px 810px;
+}
+.header-section .all-thinks{
+    font-size: 65px;
+    font-weight: bold;
+    color: #151414;
+}
+.header-section .description{
+    font-size: 16px;
+    color: #444343;
+    line-height: 26px;
+    margin-top: 24px;
+}
+.btn{
+    padding: 20px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F15B22;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 32px;
+}
+#previous-year-container{
+    padding: 131px 322px 130px 206px;
+    display: flex;
+    gap: 87px;
+}
+.previous-image img{
+    width: 570px;
+    height: 725px;
+}
+.previous-description {
+    margin-top: 240px;
+}
+.previous-description .failure{
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+}
+.previous-description .failure-description{
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-top: 24px;
+}
+.failure-all-checkpoint .failure-checkpoint{
+    color: #444343;
+    line-height: 26px;
+    margin-top: 16px;
+    font-weight: normal;
+}
+.failure-all-checkpoint .fa-solid{
+    color: #16D887;
+}
